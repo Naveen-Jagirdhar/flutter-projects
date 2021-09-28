@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:tax_app/pages/hra_page.dart';
 import 'package:tax_app/pages/rent_receipt.dart';
 import 'package:tax_app/pages/tips_page.dart';
 import 'package:tax_app/utils/arguments.dart';
@@ -16,5 +17,8 @@ class MyNavigator {
   }
   static void gotoRentPage(BuildContext context) {
     Navigator.pushNamed(context, RentPage.routeName);
+  }
+  static void gotoHraPage(BuildContext context) {
+    Navigator.pushNamed(context,HraPage.routeName);
   }
 }

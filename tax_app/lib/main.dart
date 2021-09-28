@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:tax_app/pages/home_page.dart';
+import 'package:tax_app/pages/hra_page.dart';
 import 'package:tax_app/pages/rent_receipt.dart';
 import 'package:tax_app/pages/tips_page.dart';
 
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
           routes: {
             TipsPage.routeName : (context)=> const TipsPage(),
             RentPage.routeName : (context)=> RentPage(),
+            HraPage.routeName :(context) => const HraPage(),
           },
         );
       }),

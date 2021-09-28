@@ -66,5 +66,8 @@ class AppWidget extends StatelessWidget {
     if(keyId == 'rent') {
       MyNavigator.gotoRentPage(context);
     }
+    if(keyId == 'hra') {
+      MyNavigator.gotoHraPage(context);
+    }
   }
 }
